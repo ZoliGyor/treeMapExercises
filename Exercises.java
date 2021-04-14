@@ -204,6 +204,14 @@ public class Exercises {
         System.out.println();
     }
 
+    public void exercise22(TreeMap<String, Integer> treeMap)
+    {
+        System.out.println("22nd exercise: Write a Java program to get the portion of a map whose keys range from a given key to another key");
+        System.out.println(treeMap);
+        System.out.println("The subMap between Caduceus and Yahsa: " + treeMap.subMap("Caduceus", true, "Yahsa", true));
+        System.out.println();
+    }
+
     public TreeMap<String, Integer> getTreeMap()
     {
         return treeMap;
