@@ -1,4 +1,5 @@
 import java.util.TreeMap;
+import java.util.Map;
 
 public class Exercises {
     TreeMap<String, Integer> treeMap = new TreeMap<String, Integer>();
@@ -53,6 +54,17 @@ public class Exercises {
             System.out.println("The map contains the value");
         }else{
             System.out.println("The map does not contain the value");
+        }
+        System.out.println();
+    }
+
+    public void exercise5(TreeMap<String, Integer> treeMap)
+    {
+        System.out.println("5th exercise: Write a Java program to get all keys from the given a Tree Map");
+        System.out.println(treeMap);
+        System.out.println("The keys are: ");
+        for(Map.Entry<String, Integer> entry : treeMap.entrySet()) {
+            System.out.println(entry.getKey());
         }
         System.out.println();
     }
