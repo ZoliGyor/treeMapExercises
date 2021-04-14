@@ -69,6 +69,15 @@ public class Exercises {
         System.out.println();
     }
 
+    public void exercise6(TreeMap<String, Integer> treeMap)
+    {
+        System.out.println("6th exercise: Write a Java program to delete all elements from a given Tree Map");
+        System.out.println(treeMap);
+        treeMap.clear();
+        System.out.println("After deleting the elements: " + treeMap);
+        System.out.println();
+    }
+
     public TreeMap<String, Integer> getTreeMap()
     {
         return treeMap;
