@@ -7,5 +7,6 @@ public class Main {
         table2.exercise1(table2.getTreeMap(), 2);
 
         table1.exercise2(table1.getTreeMap(), table2.getTreeMap());
+        table1.exercise3(table1.getTreeMap(), "Veth");
     }
 }

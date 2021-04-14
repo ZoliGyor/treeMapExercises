@@ -31,6 +31,19 @@ public class Exercises {
         System.out.println();
     }
 
+    public void exercise3(TreeMap<String, Integer> treeMap, String key)
+    {
+        System.out.println("3rd exercise: Write a Java program to search a key in a Tree Map");
+        System.out.println(treeMap);
+        System.out.println("I will be looking for this key: " + key);
+        if(treeMap.containsKey(key)){
+            System.out.println("The map contains the key");
+        }else{
+            System.out.println("The map does not contain the key");
+        }
+        System.out.println();
+    }
+
     public TreeMap<String, Integer> getTreeMap()
     {
         return treeMap;
