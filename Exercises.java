@@ -111,6 +111,14 @@ public class Exercises {
         System.out.println();
     }
 
+    public void exercise11(TreeMap<String, Integer> treeMap)
+    {
+        System.out.println("11th exercise: Write a Java program to get a key-value mapping associated with the greatest key less than or equal to the given key");
+        System.out.println(treeMap);
+        System.out.println(treeMap.floorEntry("Veth"));
+        System.out.println();
+    }
+
     public TreeMap<String, Integer> getTreeMap()
     {
         return treeMap;
