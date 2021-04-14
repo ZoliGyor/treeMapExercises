@@ -44,6 +44,19 @@ public class Exercises {
         System.out.println();
     }
 
+    public void exercise4(TreeMap<String, Integer> treeMap, int value)
+    {
+        System.out.println("3rd exercise: Write a Java program to search a value in a Tree Map");
+        System.out.println(treeMap);
+        System.out.println("I will be looking for this value: " + value);
+        if(treeMap.containsValue(value)){
+            System.out.println("The map contains the value");
+        }else{
+            System.out.println("The map does not contain the value");
+        }
+        System.out.println();
+    }
+
     public TreeMap<String, Integer> getTreeMap()
     {
         return treeMap;

@@ -8,5 +8,6 @@ public class Main {
 
         table1.exercise2(table1.getTreeMap(), table2.getTreeMap());
         table1.exercise3(table1.getTreeMap(), "Veth");
+        table1.exercise4(table1.getTreeMap(), 3);
     }
 }
