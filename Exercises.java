@@ -167,6 +167,14 @@ public class Exercises {
         System.out.println();
     }
 
+    public void exercise18(TreeMap<String, Integer> treeMap)
+    {
+        System.out.println("18th exercise: Write a Java program to get NavigableSet view of the keys contained in a map");
+        System.out.println(treeMap);
+        System.out.println(treeMap.navigableKeySet());
+        System.out.println();
+    }
+
     public TreeMap<String, Integer> getTreeMap()
     {
         return treeMap;
