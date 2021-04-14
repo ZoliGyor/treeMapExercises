@@ -18,5 +18,6 @@ public class Main {
         table2.exercise11(table2.getTreeMap());
         table2.exercise12(table2.getTreeMap());
         table2.exercise13(table2.getTreeMap());
+        table2.exercise14(table2.getTreeMap());
     }
 }

@@ -135,6 +135,14 @@ public class Exercises {
         System.out.println();
     }
 
+    public void exercise14(TreeMap<String, Integer> treeMap)
+    {
+        System.out.println("14th exercise: Write a Java program to get the portion of this map whose keys are less than (or equal to, if inclusive is true) a given key");
+        System.out.println(treeMap);
+        System.out.println("Checking the keys for Yahsa: " + treeMap.headMap("Yahsa", true));
+        System.out.println();
+    }
+
     public TreeMap<String, Integer> getTreeMap()
     {
         return treeMap;
