@@ -103,6 +103,14 @@ public class Exercises {
         System.out.println();
     }
 
+    public void exercise10(TreeMap<String, Integer> treeMap)
+    {
+        System.out.println("10th exercise: Write a Java program to get a reverse order view of the keys contained in a given map");
+        System.out.println(treeMap);
+        System.out.println("Reversed order of the keys: " + treeMap.descendingKeySet());
+        System.out.println();
+    }
+
     public TreeMap<String, Integer> getTreeMap()
     {
         return treeMap;
