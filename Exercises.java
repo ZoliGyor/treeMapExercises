@@ -94,6 +94,15 @@ public class Exercises {
         System.out.println();
     }
 
+    public void exercise9(TreeMap<String, Integer> treeMap)
+    {
+        System.out.println("9th exercise: Write a Java program to get the first (lowest) key and the last (highest) key currently in a map");
+        System.out.println(treeMap);
+        System.out.println(treeMap.firstKey());
+        System.out.println(treeMap.lastKey());
+        System.out.println();
+    }
+
     public TreeMap<String, Integer> getTreeMap()
     {
         return treeMap;
