@@ -78,6 +78,22 @@ public class Exercises {
         System.out.println();
     }
 
+    /*public void exercise7()
+    {
+        System.out.println("7th exercise: Write a Java program to sort keys in Tree Map by using comparator");
+        System.out.println();
+        System.out.println();
+    }*/
+
+    public void exercise8(TreeMap<String, Integer> treeMap)
+    {
+        System.out.println("8th exercise: Write a Java program to get a key-value mapping associated with the greatest key and the least key in a map");
+        System.out.println(treeMap);
+        System.out.println("Greates key: " + treeMap.firstEntry());
+        System.out.println("Least key: " + treeMap.lastEntry());
+        System.out.println();
+    }
+
     public TreeMap<String, Integer> getTreeMap()
     {
         return treeMap;
