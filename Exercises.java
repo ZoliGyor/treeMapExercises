@@ -143,6 +143,14 @@ public class Exercises {
         System.out.println();
     }
 
+    public void exercise15(TreeMap<String, Integer> treeMap)
+    {
+        System.out.println("15th exercise: Write a Java program to get the least key strictly greater than the given key. Return null if there is no such key");
+        System.out.println(treeMap);
+        System.out.println("Checking the keys for Caduceus: " + treeMap.higherEntry("Caduceus"));
+        System.out.println();
+    }
+
     public TreeMap<String, Integer> getTreeMap()
     {
         return treeMap;
