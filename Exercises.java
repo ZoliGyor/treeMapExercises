@@ -236,6 +236,14 @@ public class Exercises {
         System.out.println();
     }
 
+    public void exercise26(TreeMap<String, Integer> treeMap)
+    {
+        System.out.println("26th exercise: Write a Java program to get the least key greater than or equal to the given key. Returns null if there is no such key");
+        System.out.println(treeMap);
+        System.out.println("Keys greater than or equal to Veth: " + treeMap.ceilingKey("Veth"));
+        System.out.println();
+    }
+
     public TreeMap<String, Integer> getTreeMap()
     {
         return treeMap;
