@@ -220,6 +220,14 @@ public class Exercises {
         System.out.println();
     }
 
+    public void exercise24(TreeMap<String, Integer> treeMap)
+    {
+        System.out.println("24th exercise: Write a Java program to get a portion of a map whose keys are greater than to a given key");
+        System.out.println(treeMap);
+        System.out.println("Keys greater than Caduceus: " + treeMap.tailMap("Caduceus", false));
+        System.out.println();
+    }
+
     public TreeMap<String, Integer> getTreeMap()
     {
         return treeMap;
