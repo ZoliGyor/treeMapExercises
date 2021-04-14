@@ -179,7 +179,16 @@ public class Exercises {
     {
         System.out.println("19th exercise: Write a Java program to remove and get a key-value mapping associated with the least key in a map");
         System.out.println(treeMap);
-        System.out.println("The first entry (which is now removed from the map): " + treeMap.pollFirstEntry());
+        System.out.println("The least entry (which is now removed from the map): " + treeMap.pollFirstEntry());
+        System.out.println(treeMap);
+        System.out.println();
+    }
+
+    public void exercise20(TreeMap<String, Integer> treeMap)
+    {
+        System.out.println("20th exercise: Write a Java program to remove and get a key-value mapping associated with the greatest key in this map");
+        System.out.println(treeMap);
+        System.out.println("The greatest entry (which is now removed from the map): " + treeMap.pollLastEntry());
         System.out.println(treeMap);
         System.out.println();
     }
