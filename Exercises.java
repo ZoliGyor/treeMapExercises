@@ -191,6 +191,17 @@ public class Exercises {
         System.out.println("The greatest entry (which is now removed from the map): " + treeMap.pollLastEntry());
         System.out.println(treeMap);
         System.out.println();
+        treeMap.put("Beauregard", 7); // need more elements for future exercises
+        treeMap.put("Yahsa", 5);
+
+    }
+
+    public void exercise21(TreeMap<String, Integer> treeMap)
+    {
+        System.out.println("21st exercise: Write a Java program to get the portion of a map whose keys range from a given key (inclusive), to another key (exclusive)");
+        System.out.println(treeMap);
+        System.out.println("The subMap between Caduceus and Yahsa: " + treeMap.subMap("Caduceus", "Yahsa"));
+        System.out.println();
     }
 
     public TreeMap<String, Integer> getTreeMap()
